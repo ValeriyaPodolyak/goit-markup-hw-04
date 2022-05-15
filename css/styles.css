@@ -121,6 +121,8 @@ line-height: 1.1;
 letter-spacing: 0.02em;
 padding-top: 32px;
     padding-bottom: 32px;
+    display: flex;
+    align-items: center;
 }
 .contacts-link:hover,
 .contacts-link:focus {
@@ -128,6 +130,10 @@ padding-top: 32px;
 }
 .contacts-mail {
     margin-right: 50px;
+}
+.contacts-icons {
+    fill: currentColor;
+    margin-right: 10px;
 }
 /* Hero style */
 .hero {
@@ -191,6 +197,8 @@ color: #757575;
 }
 .advantages-list {
     display: flex;
+    align-items: center;
+    justify-content: center;   
 }
 .advantages-item {
     margin-right: 30px;
@@ -198,6 +206,17 @@ color: #757575;
 }
 .advantages-item:last-child{
     margin-right: 0;
+}
+.advantages-link {
+       display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F5F4FA;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 4px;
+width: 270px;
+height: 120px;
+margin-bottom: 30px;
 }
 /* Occupation styles */
 .occupation {
@@ -255,6 +274,7 @@ line-height: 1.1;
 text-align: center;
 letter-spacing: 0.03em;
 color: #757575;
+margin-bottom: 16px;
 }
 .member-item {
     background-color: #FFFFFF;
@@ -272,7 +292,74 @@ color: #757575;
     padding-bottom: 30px ;
 
 }
+/* Socials icons for members */
+.socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.socials-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+}
+.socials-link:hover,
+ .socials-link:focus {
+    background-color: #2196F3;
+}
+.socials-item:not(:last-child) {
+    margin-right: 10px;
+}
+.socials-icons {
+    fill: #AFB1B8;
+}
+.socials-link:hover .socials-icons,
+.socials-link:focus .socials-icons {
+    fill: #FFFFFF;
+}
+/* Clients section styles */
+.clients-heading {
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+margin-bottom: 50px;
+}
+.clients-list {
+display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+.clients-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #AFB1B8;
+border-radius: 4px;
+width: 170px;
+height: 92px;
+}
+.clients-item:not(:last-child) {
+    margin-right: 30px;
+}
+.clients-link:hover,
+.clients-link:focus {
+    border-color: #2196F3;
 
+}
+.clients-icon {
+    fill: #AFB1B8;
+}
+.clients-icon:hover,
+.clients-icon:focus {
+    fill: #2196F3;
+}
 /* Footer styles */
 .ftr {
     background-color: #2F303A;
