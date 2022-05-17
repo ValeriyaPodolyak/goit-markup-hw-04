@@ -365,8 +365,8 @@ height: 92px;
 .clients-icon {
     fill: #AFB1B8;
 }
-.clients-icon:hover,
-.clients-icon:focus {
+.clients-link:hover .clients-icon,
+.clients-link:focus .clients.icon {
     fill: #2196F3;
 }
 /* Footer styles */
