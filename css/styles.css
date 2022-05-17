@@ -187,7 +187,7 @@ cursor: pointer;
 }
 /* Advantages style */
 .advantages {
-    background-color: #E5E5E5;
+    background-color: var(--white-color);
 }
 .advantages-heading {
     color: #212121;
@@ -221,7 +221,6 @@ color: #757575;
     align-items: center;
     justify-content: center;
     background: #F5F4FA;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 border-radius: 4px;
 width: 270px;
 height: 120px;
@@ -229,7 +228,7 @@ margin-bottom: 30px;
 }
 /* Occupation styles */
 .occupation {
-    background-color: #E5E5E5;
+    background-color:var(--white-color);
     padding-top: 0;
 }
 .occupation-heading {
@@ -362,7 +361,6 @@ height: 92px;
 .clients-link:hover,
 .clients-link:focus {
     border-color: #2196F3;
-
 }
 .clients-icon {
     fill: #AFB1B8;
