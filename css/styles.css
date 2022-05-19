@@ -354,6 +354,7 @@ display: flex;
 border-radius: 4px;
 width: 170px;
 height: 92px;
+
 }
 .clients-item:not(:last-child) {
     margin-right: 30px;
@@ -366,7 +367,7 @@ height: 92px;
     fill: #AFB1B8;
 }
 .clients-link:hover .clients-icon,
-.clients-link:focus .clients.icon {
+ .clients-link:focus .clients-icon{
     fill: #2196F3;
 }
 /* Footer styles */
@@ -439,8 +440,6 @@ margin-bottom: 20px;
 .ftr-socials-icons {
     fill: #FFFFFF;
 }
-
-
 
 /* portfolio styles */
 
